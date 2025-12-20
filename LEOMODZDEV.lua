@@ -25,7 +25,7 @@ local v21 = Instance.new("UICorner")
 Instance.new("TextButton")
 Instance.new("UICorner")
 local v22 = Instance.new("TextLabel")
-vu1.Name = "LEO MENU HUB"
+vu1.Name = "ScriptCentral Hub"
 vu1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 vu1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 vu1.ResetOnSpawn = false
@@ -129,7 +129,7 @@ v11.TextColor3 = Color3.fromRGB(240, 240, 240)
 v11.TextSize = vu25.textSize
 v11.TextWrapped = true
 v11.MouseButton1Down:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptCentral-br/ScriptCentral/refs/heads/main/README.md", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LEOMDZOFC/LEOMENU/refs/heads/main/README.md", true))()
 end)
 v12.CornerRadius = UDim.new(0, 6)
 v12.Parent = v11
@@ -153,7 +153,7 @@ v14.TextColor3 = Color3.fromRGB(240, 240, 240)
 v14.TextSize = vu25.textSize
 v14.TextWrapped = true
 v14.MouseButton1Down:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptCentral-br/ScriptCentralKeyUs/refs/heads/main/SystemKey.md", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LEOMDZOFC/LEOMENU/refs/heads/main/README.md", true))()
 end)
 v15.CornerRadius = UDim.new(0, 6)
 v15.Parent = v14
@@ -191,15 +191,15 @@ v20.BorderSizePixel = 0
 v20.Position = UDim2.new(0.1, 0, 0.25, 0)
 v20.Size = UDim2.new(0.8, 0, 0.25, 0)
 v20.Font = Enum.Font.Gotham
-v20.Text = "DISCORD"
+v20.Text = "TELEGRAM"
 v20.TextColor3 = Color3.fromRGB(255, 255, 255)
 v20.TextSize = vu25.textSize
 v20.TextWrapped = true
 v20.MouseButton1Down:Connect(function()
-    setclipboard("https://discord.gg/NyhbVzG8qz")
+    setclipboard("https://t.me/LEOMODZ43")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "COPIADO!",
-        Text = "Discord link copiado",
+        Text = "Telegram link copiado",
         Duration = 3
     })
 end)
@@ -212,7 +212,7 @@ v22.BackgroundTransparency = 1
 v22.Position = UDim2.new(0.1, 0, 0.88, 0)
 v22.Size = UDim2.new(0.8, 0, 0.05, 0)
 v22.Font = Enum.Font.Gotham
-v22.Text = "Discord: blazito_yt"
+v22.Text = "TELAGRAM: LEOMODZ3"
 v22.TextColor3 = Color3.fromRGB(180, 180, 180)
 v22.TextSize = vu25.textSize - 2
 v22.TextWrapped = true;
